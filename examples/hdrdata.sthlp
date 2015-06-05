@@ -1,6 +1,6 @@
 {smcl}
 {hline}
-help for {hdr:hdrdata}{right:(Thomas Roca - UNDP HDRO || Agence Française de Développement)}
+help for {hdr:hdrdata}{right:(Thomas Roca - UNDP HDRO || Agence FranÃ§aise de DÃ©veloppement)}
 {hline}
 
 {title:Loads Human Development Report Office data via API}
@@ -13,10 +13,8 @@ help for {hdr:hdrdata}{right:(Thomas Roca - UNDP HDRO || Agence Française de Dév
 
 {p 4 4 2}
 {cmd:hdrdata} hdrdata loads Human Development Report Office data via HDRO'API (see:{browse "http://hdr.undp.org/en/content/developers-data-api": http://hdr.undp.org/en/content/developers-data-api})
-
-To use this program you have to intal insheetjson and libjson via the archices: 'ssc install insheetjon' and 'ssc install libjson'
-
-The program connect to HDRO's API and load the data according to the indicator, year(s) and country(ies) you requieried:
+The program relies on webscrapping.
+The program connect to HDRO's API and load the data according to the indicator, year(s) and country(ies) the user selects:
 You can find the list of indicators available on UNDP HDRO website see:{browse "http://hdr.undp.org/en/content/developers-data-api": http://hdr.undp.org/en/content/developers-data-api}
 or here: 
 
@@ -103,6 +101,6 @@ This program is a beta version and relies on the beta version of the API
 {title:Author}
 
 {p}
-Thomas Roca,PhD, Researcher UNDP - Human Development Report Office, New York | Agence Française de Développement(AFD), France.
+Thomas Roca,PhD, Researcher UNDP - Human Development Report Office, New York | Agence FranÃ§aise de DÃ©veloppement(AFD), France.
 Email:{browse "mailto:roca.thomas@gmail.com":roca.thomas@gmail.com}
 {p_end}
